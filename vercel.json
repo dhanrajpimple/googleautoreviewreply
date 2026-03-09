@@ -2,11 +2,11 @@
     "crons": [
         {
             "path": "/api/cron/fetch-reviews?secret=YOUR_CRON_SECRET",
-            "schedule": "*/15 * * * *"
+            "schedule": "0 0 * * *"
         },
         {
             "path": "/api/cron/send-replies?secret=YOUR_CRON_SECRET",
-            "schedule": "*/15 * * * *"
+            "schedule": "0 1 * * *"
         }
     ]
 }
